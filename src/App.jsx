@@ -7,7 +7,7 @@ import Services from "./components/service/Services";
 import Portfolio from "./components/portfolio/Portfolio";
 import { Team } from "./components/team/Team";
 import Contact from "./components/contact/Contact";
-import  Product  from "./components/portfolio/product";
+import  Product  from "./components/portfolio/Product";
 
 
 const App=()=> {
@@ -21,7 +21,7 @@ const App=()=> {
           <Route path="portfolio" element={<Portfolio />} />
           <Route path="team" element={<Team />} />
           <Route path="contact" element={<Contact />} />
-          <Route path="/products/:ProductID" element={<Product/>} />
+          <Route path="products/:ProductID" element={<Product/>} />
           
         </Route>
       </Routes>
