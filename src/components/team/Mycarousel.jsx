@@ -3,6 +3,11 @@ import { Row } from 'react-bootstrap';
 import Carousel from 'react-bootstrap/Carousel';
 import { BiSolidQuoteAltLeft } from "react-icons/bi";
 import { BiSolidQuoteAltRight } from "react-icons/bi";
+import Saul from "../../../public/images/testimonials/Saul.jpg"
+import Sara from "../../../public/images/testimonials/Sara.jpg"
+import Matt from "../../../public/images/testimonials/Matt.jpg"
+import  John from "../../../public/images/testimonials/John.jpg"
+import  Jena from "../../../public/images/testimonials/Jena.jpg"
 
 
  const Mycarousel = () => {
@@ -11,20 +16,20 @@ import { BiSolidQuoteAltRight } from "react-icons/bi";
     <Carousel fluid className='bg-carousel mb-5 text-white fw-bold mt-5'>
      
       <Carousel.Item interval={1000}>
-      <img src="../../../public/images/testimonials/testimonials-1.jpg" className='rounded-circle border border-5 border-secondary' style={{width:100,height:100}} alt=""/>
+      <img src={Saul} className='rounded-circle border border-5 border-secondary' style={{width:100,height:100}} alt=""/>
       <h3>Saul Goodman</h3>
       <p>manager</p>
           <p  className='text-center mt-3 justify-content-center mx-auto' style={{maxWidth:"850px"}}> <BiSolidQuoteAltLeft className='fs-4 mb-3 secondary'/> I ask for a client to allow me to understand them and develop what they really want. As an architect, I try and guide the design to support the client, to create an environment the client owns instead of me, the designer.<BiSolidQuoteAltRight  className='fs-4 secondary'/></p>
       </Carousel.Item>
       <Carousel.Item interval={1000}>
-      <img src="../../../public/images/testimonials/testimonials-2.jpg" className='rounded-circle border border-5 border-secondary' style={{width:100,height:100}} alt=""/>
+      <img src={Sara} className='rounded-circle border border-5 border-secondary' style={{width:100,height:100}} alt=""/>
          <h3>Sara Wilsson</h3>
           <p>Designer</p>
           <p className='text-center mt-3 justify-content-center mx-auto' style={{maxWidth:"850px"}}><BiSolidQuoteAltLeft className='fs-4 mb-3 secondary'/>from life, from living, learning, seeing, experiencing, touching, making, dreaming and failing; and they develop and change through testing, problem-solving, discussion, experimenting, experience and failing, again<BiSolidQuoteAltRight  className='fs-4 secondary'/></p>
         
       </Carousel.Item>
       <Carousel.Item interval={1000}>
-      <img src="../../../public/images/testimonials/testimonials-3.jpg" className='rounded-circle border border-5 border-secondary' style={{width:100,height:100}} alt=""/>
+      <img src={Jena} className='rounded-circle border border-5 border-secondary' style={{width:100,height:100}} alt=""/>
       <h3>Jena Karlis</h3>
           <p>Marketing</p>
           <p className='text-center mt-3 justify-content-center mx-auto' style={{maxWidth:"850px"}}><BiSolidQuoteAltLeft className='fs-4 mb-3 secondary'/>
@@ -33,7 +38,7 @@ import { BiSolidQuoteAltRight } from "react-icons/bi";
         
       </Carousel.Item>
       <Carousel.Item interval={1000}>
-      <img src="../../../public/images/testimonials/testimonials-4.jpg" className='rounded-circle border border-5 border-secondary' style={{width:100,height:100}} alt=""/>
+      <img src={Matt} className='rounded-circle border border-5 border-secondary' style={{width:100,height:100}} alt=""/>
       <h3>Matt Brandon</h3>
           <p>Accessories designer</p>
           <p className='text-center mt-3 justify-content-center mx-auto' style={{maxWidth:"850px"}}><BiSolidQuoteAltLeft className='fs-4 mb-3 secondary'/>
@@ -42,7 +47,7 @@ import { BiSolidQuoteAltRight } from "react-icons/bi";
 
       </Carousel.Item>
       <Carousel.Item interval={1000}>
-      <img src="../../../public/images/testimonials/testimonials-5.jpg" className='rounded-circle border border-5 border-secondary' style={{width:100,height:100}} alt=""/>
+      <img src={John} className='rounded-circle border border-5 border-secondary' style={{width:100,height:100}} alt=""/>
       <h3>John Larson</h3>
           <p>furniture designer</p>
           <p className='text-center mt-3 justify-content-center mx-auto' style={{maxWidth:"850px"}}><BiSolidQuoteAltLeft className='fs-4 mb-3 secondary'/>

@@ -1,7 +1,17 @@
+import dining from "../../../public/images/portfolio/dining.jpg"
+import Wallshelf from "../../../public/images/portfolio/Wallshelf.jpg"
+import Stoneware from "../../../public/images/portfolio/Stoneware.jpg"
+import TableStool from "../../../public/images/portfolio/TableStool.jpg"
+import Dining4seats from "../../../public/images/portfolio/Dining4seats.jpg"
+import Chair from "../../../public/images/portfolio/Chair.jpg"
+import  Cushion from "../../../public/images/portfolio/Cushion.jpg"
+import Lamp from "../../../public/images/portfolio/Lamp.jpg"
+import sofas from "../../../public/images/portfolio/sofas.jpg"
+
 const Data = [
   {
     id:1,
-    imgURL:"../../../public/images/portfolio/portfolio-4.jpg",
+    imgURL:dining,
     category: "Kitchen",
     name:"Dining sets up to 2 seats",
     price:"$179",
@@ -12,7 +22,7 @@ const Data = [
 },
 {
     id:2,
-    imgURL:"../../../public/images/portfolio/portfolio-8.jpg",
+    imgURL:Wallshelf,
     category: "Kitchen",
     name:"Wall shelf",
     price:"$300",
@@ -21,7 +31,7 @@ const Data = [
     title:"Description",
 }, {
     id:3,
-    imgURL:"../../../public/images/portfolio/portfolio-9.jpg",
+    imgURL:Stoneware,
     category: "Kitchen",
     name:"Large Stoneware Vase",
     price:"$150",
@@ -30,7 +40,7 @@ const Data = [
     title:"Description",
 }, {
     id:4,
-    imgURL:"../../../public/images/portfolio/portfolio-3.jpg",
+    imgURL:TableStool,
     category: "Hallway",
     name:"Small Side Table & Stool",
     price:"$70",
@@ -42,7 +52,7 @@ const Data = [
     
 }, {
     id:5,
-    imgURL:"../../../public/images/portfolio/portfolio-5.jpg",
+    imgURL:Dining4seats,
     category: "Hallway",
     name:"Dining sets up to 4 seats",
     price:"$700",
@@ -52,7 +62,7 @@ const Data = [
 
 }, {
     id:6,
-    imgURL:"../../../public/images/portfolio/portfolio-2.jpg",
+    imgURL:Chair,
     category: "Hallway",
     name:"Wooden Folding Chair",
     price:"$200",
@@ -62,7 +72,7 @@ const Data = [
 
 }, {
     id:7,
-    imgURL:"../../../public/images/portfolio/portfolio-7.jpg",
+    imgURL:Cushion,
     category: "Living",
  name:"Canvas Cushion Cover",
     price:"$70",
@@ -71,7 +81,7 @@ const Data = [
     title:"Description",
 }, {
     id:8,
-    imgURL:"../../../public/images/portfolio/portfolio-6.jpg",
+    imgURL:Lamp,
     category: "Living",
     name:"Chrome-finish Uplighter Floor Lamp",
     price:"$160",
@@ -80,7 +90,7 @@ const Data = [
     title:"Description",
 }, {
     id:9,
-    imgURL:"../../../public/images/portfolio/portfolio-10.jpg",
+    imgURL:sofas,
     category: "Living",
     name:"sofas",
     price:"$300",

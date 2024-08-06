@@ -7,7 +7,7 @@ import Counter from "./Counter";
 import { useEffect } from "react";
 import { Mycard2 } from '../Mycard1';
 import about from "../../../public/images/about.jpg"
-import joinnow from "../../../public/images/joinnow.jpg"
+
 
 import AOS from 'aos';
 import '../../../node_modules/aos/dist/aos.css';

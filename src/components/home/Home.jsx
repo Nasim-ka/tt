@@ -1,6 +1,7 @@
 import { Button, Container} from "react-bootstrap"
 import { useEffect } from "react"
-import videoBg from "../../../public/video/video.mp4"
+// import videoBg from "../../../public/video/video.mp4"
+import video from '../../../public/video/video.mp4'
 
 
 import AOS from 'aos';
@@ -23,7 +24,7 @@ const Home=()=>{
                 <div className="overlay">
 
                 </div>
-              <video src={videoBg} className="video" autoPlay loop muted />
+              <video src={video}  className="video" autoPlay loop muted />
               </div>          
            
                 <div className="content">

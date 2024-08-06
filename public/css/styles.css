@@ -118,7 +118,8 @@ object-fit: cover;
   
   .bg-1
   {
-    background: url("../../../public/images/joinnow.jpg") fixed;
+    background: url(../images/joinnow.jpg) fixed;
+    /* background-image: url(../images/joinnow.jpg); */
     width: 100%;
     min-height: 50vh;
     max-height: 100vh;
@@ -133,7 +134,7 @@ object-fit: cover;
 
 }
 .bg-carousel{
-  background: url("../images/testimonials-bg.jpg");
+  background-image: url(../images/testimonials-bg.jpg);
     width: 100%;
     height: 90vh;
     background-size: cover;

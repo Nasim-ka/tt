@@ -1,35 +1,40 @@
-import dribbble from "../../../public/icons/dribbble.svg"
+import furniture from "../../../public/images/SERVICES/furniture.jpg"
+import outdoor from "../../../public/images/SERVICES/outdoor.jpg"
+import lighting from "../../../public/images/SERVICES/lighting.jpg"
+import  sofas from "../../../public/images/SERVICES/sofas.jpg"
+import accessories from "../../../public/images/SERVICES/accessories.jpg"
+import kitchenaccessories from "../../../public/images/SERVICES/kitchenaccessories.jpg"
 const myservices=[
     {
         id:1,
         title:"Furniture",
-        imgURL:"../../../public/images/SERVICES/furniture.jpg",
+        imgURL:furniture,
     },
     {
         id:2,
         title:"Outdoor",
-        imgURL:"../../../public/images/SERVICES/outdoor.jpg",
+        imgURL:outdoor,
     },
    
     {
         id:3,
         title:"Lighting",
-        imgURL:"../../../public/images/SERVICES/lighting.jpg",
+        imgURL:lighting,
     },
     {
         id:4,
         title:"Sofas & Armchairs",
-        imgURL:"../../../public/images/SERVICES/sofas.jpg",
+        imgURL:sofas,
     },
     {
         id:5,
         title:"Accessories",
-        imgURL:"../../../public/images/SERVICES/accessories.jpg",
+        imgURL:accessories,
     },
     {
         id:6,
         title:"Kitchen Accessories",
-        imgURL:"../../../public/images/SERVICES/kitchenaccessories.jpg",
+        imgURL:kitchenaccessories,
     },
     
 ]

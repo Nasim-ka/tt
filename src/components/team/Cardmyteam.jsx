@@ -8,6 +8,10 @@ import { TiSocialFacebook } from "react-icons/ti";
 import { FaInstagram } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { useState } from 'react';
+import Sarah from "../../../public/images/team/Sarah.jpg"
+import Walter from "../../../public/images/team/Walter.jpg"
+import magi from "../../../public/images/team/magi.jpg"
+import  Amanda from "../../../public/images/team/Amanda.jpg"
 
 
 
@@ -47,7 +51,7 @@ const Cardmyteam = () => {
         onMouseLeave={()=> setIsHovering(false)}
         >
           <Card>
-            <Card.Img src="../../../public/images/team/team-1.jpg" />
+            <Card.Img src={Sarah} />
             <Row className={crossClass()}>
       <Col sm={1} className="text-white ms-1 text-center align-item-center justify-content-center inline-block align-self-center rounded-circle socialicon py-1 fs-5" style={{width:36 , height:36}}><FaTwitter /></Col>
       <Col sm={1} className="text-white ms-1 text-center align-item-center justify-content-center inline-block align-self-center rounded-circle socialicon py-1 fs-5" style={{width:36 , height:36}}><TiSocialFacebook /></Col>
@@ -73,7 +77,7 @@ const Cardmyteam = () => {
         onMouseLeave={()=> setIsHovering1(false)}
         >
           <Card>
-            <Card.Img src="../../../public/images/team/team-2.jpg" />
+            <Card.Img src={Walter} />
             <Row className={crossClass1()}>
       <Col sm={1} className="text-white ms-1 text-center align-item-center justify-content-center inline-block align-self-center rounded-circle socialicon py-1 fs-5" style={{width:36 , height:36}}><FaTwitter /></Col>
       <Col sm={1} className="text-white ms-1 text-center align-item-center justify-content-center inline-block align-self-center rounded-circle socialicon py-1 fs-5" style={{width:36 , height:36}}><TiSocialFacebook /></Col>
@@ -99,7 +103,7 @@ const Cardmyteam = () => {
         onMouseLeave={()=> setIsHovering2(false)}
         >
           <Card>
-            <Card.Img src="../../../public/images/team/team-3.jpg" />
+            <Card.Img src={magi} />
             <Row className={crossClass2()}>
       <Col sm={1} className="text-white ms-1 text-center align-item-center justify-content-center inline-block align-self-center rounded-circle socialicon py-1 fs-5" style={{width:36 , height:36}}><FaTwitter /></Col>
       <Col sm={1} className="text-white ms-1 text-center align-item-center justify-content-center inline-block align-self-center rounded-circle socialicon py-1 fs-5" style={{width:36 , height:36}}><TiSocialFacebook /></Col>
@@ -125,7 +129,7 @@ const Cardmyteam = () => {
         onMouseLeave={()=> setIsHovering3(false)}
         >
           <Card>
-            <Card.Img src="../../../public/images/team/team-4.jpg" />
+            <Card.Img src={Amanda}/>
 
     <Row className={crossClass3()}>
       <Col sm={1} className="text-white ms-1 text-center align-item-center justify-content-center inline-block align-self-center rounded-circle socialicon py-1 fs-5" style={{width:36 , height:36}}><FaTwitter /></Col>
